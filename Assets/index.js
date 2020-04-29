@@ -105,15 +105,12 @@ document.addEventListener('DOMContentLoaded',
                                                       
                                                     
                               document.querySelector(".box6").addEventListener("animationend",
-                                                      function () 
-                                                        {
-                                                          document.querySelector(".box6").style.animation= 'none';
-                                                        }
-                                                      
-                                                    )
+                                                                                function () 
+                                                                                  {
+                                                                                    document.querySelector(".box6").style.animation= 'none';
+                                                                                  }
+                                                                                
+                                                                              )
                                                       });
 
                               });
-
-
-
